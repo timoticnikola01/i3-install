@@ -12,7 +12,7 @@ echo Username=$userName
 #echo Password=$userPass
 
 echo $userPass | sudo -S pacman -Syyu
-sudo pacman --noconfirm --needed -S zsh i3-gaps rofi kitty xorg xorg-xinit noto-fonts rxvt-unicode pulseaudio mesa alsa pulseaudio-alsa pulsemixer git
+sudo pacman --noconfirm --needed -S zsh i3-gaps rofi kitty xorg xorg-xinit noto-fonts rxvt-unicode pulseaudio mesa alsa pulseaudio-alsa pulsemixer git dunst libnotify
 
 
 function installYay {
