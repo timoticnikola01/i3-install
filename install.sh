@@ -26,6 +26,8 @@ function installYay {
 	fi
 }
 
+git clone https://github.com/timoticnikola01/dotfiles.git
+
 cp -r dotfiles/.bashrc ~/
 cp -r dotfiles/.config ~/
 cp -r dotfiles/.fehbg ~/
