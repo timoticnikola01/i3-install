@@ -26,6 +26,8 @@ function installYay {
 	fi
 }
 
+yay --noconfirm --needed -S i3lock-fancy feh slock pulseaudio mesa alsa polybar picom-ibhagwan-git code nerd-fonts-hack polybar dunst libnotify xdg-utils 
+
 git clone https://github.com/timoticnikola01/dotfiles.git
 
 cp -r dotfiles/.bashrc ~/
@@ -42,7 +44,6 @@ cp -r dotfiles/.zshrc ~/
 xrdb ~/.Xresources
 xrdb -merge ~/.Xresources
 
-yay --noconfirm --needed -S i3lock-fancy feh slock pulseaudio mesa alsa polybar picom-ibhagwan-git code nerd-fonts-hack
 
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
