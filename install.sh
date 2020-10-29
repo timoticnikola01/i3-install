@@ -13,7 +13,7 @@ function homeDir {
 userPass
 homeDir
 echo Username=$userName
-
+echo $userPass | sudo -s
 echo $userPass | sudo -S pacman -Syyu
 sudo pacman --noconfirm --needed -S zsh i3-gaps rofi kitty xorg xorg-xinit noto-fonts rxvt-unicode pulseaudio mesa alsa pulseaudio-alsa pulsemixer git dunst libnotify
 
