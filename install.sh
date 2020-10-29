@@ -29,7 +29,7 @@ function installYay {
 	fi
 }
 installYay
-echo $userPass | yay --noconfirm --needed -S i3lock-fancy feh slock pulseaudio mesa alsa polybar picom-ibhagwan-git code nerd-fonts-hack polybar dunst libnotify xdg-utils 
+echo $userPass | yay --noconfirm --needed -S i3lock-fancy feh neofetch slock pulseaudio mesa alsa polybar picom-ibhagwan-git code nerd-fonts-hack polybar dunst libnotify xdg-utils 
 
 git clone https://github.com/timoticnikola01/dotfiles.git
 
